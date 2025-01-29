@@ -1,0 +1,23 @@
+{
+    "name": "gtsciences/gt-ai",
+    "description": "Possible AI integrations for Drupal",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "_comment": [
+        "LLM/GPT editorial assistance:",
+        "https://www.drupal.org/project/ai",
+        "https://www.drupal.org/project/openai",
+        "https://www.drupal.org/project/augmentor",
+        "https://www.drupal.org/project/auto_alter",
+        "Alt text AI help to check into with campus: https://www.drupal.org/project/metatag_ai"
+    ],
+    "require": {
+        "core": ">=10.4",
+
+        "drupal/ai": "^11.1",
+        "drupal/ai_agents": "^1.0",
+        "drupal/ai_image_alt_text": "^1.0",
+        "drupal/augmentor": "^11.1",
+        "drupal/auto_alter": "^11.1"
+    }
+}
